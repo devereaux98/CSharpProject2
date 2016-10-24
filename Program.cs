@@ -1,15 +1,11 @@
 ﻿using System;
     public class Program
     {
-        public static PowerUp Health = new PowerUp();
-        public static PowerUp Ammo = new PowerUp();
+        public static Game myGame = new Game();
         public static void Main(string[] args)
         {
-            Health = new PowerUp();
-            Health.duration = 10;
-            Health.RunPowerUp();
-            Console.WriteLine(Health.duration);
-        
-            //Console.WriteLine(myString);
-        }
+            Console.WriteLine("Please type in your name.");
+            myGame.name = Console.ReadLine();
+            Console.WriteLine("Your player name is " + myGame.name);
+        }     
     }
