@@ -1,0 +1,5 @@
+    When creating a variable, you must first declare what KIND of variable it is (whole number, phrase, etc.).  Then you must give the variable a name.  Finally, you can give the variable a value to store.
+The declaring of the datatype and the naming of the variable is known as the declaration, while the assigning of a value for the variable to store is known as the initialisation.  Logging a variable will 
+allow you to get that value that the variable is storing.  Variables maintain their given value until given a new value.  Functions (or methods) take variables and return values.  Functions that do not
+return anything are given a datatype of void.  A function will return a datatype as specified in the declaring of the function.  Giving a function parameters feeds the function certain information based on 
+what you want to get out of the function.  When calling a function, placing something within the parenthesis stores a value within the parameter that was given when the function was first created.  
