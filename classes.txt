@@ -1,0 +1,8 @@
+    Unity automatically inserts the keyword "Class" for you when you create a new C# Script.  
+Classes MUST share the same name as the script they are in.  Classes are "containers" for functions and variables. 
+In an Object-Oriented Program, classes should be dedicated to performing one task.  Classes are great tools for organizing
+Scripts that serve different purposes.  When creating an instance of a class (otherwise known as an object), you must 
+create it by declaring whether or not it is public or private, calling it by name, giving the instance a name, then setting
+it equal to the object constructor.  Example: public Example myExample = new Example();.  The name of the constructor is always
+the name of the class.  Constructors do not need a return type.  Classes can have multiple Constructors, getting called one
+at a time when the object is initialized.  
