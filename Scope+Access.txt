@@ -1,0 +1,6 @@
+    The scope of a variable is the area in code where the variable can be used.  A variable is "local" t the place in code where it can be used.
+The scope of a variable is generally outlined by code blocks.  Variables declared within a class rather than a function have an access modifier 
+given to them.  An access modifier is a keyword placed before the data type that can define where the function/variable can be seen from.  If
+another code needs access to a function or a variable, it should be public, otherwise it should be private.  Declaring it as "public" means that
+it can be accessed from outside of the class.  Setting a default value for a public variable will not override the value that is in Unity's 
+"inspector", unless you create a "start" function and set it manually.  Private variables can only be edited within the class.    

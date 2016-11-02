@@ -1,0 +1,5 @@
+    The "dot operator" is a period seen between words in code.  Dot operators allow you to access or seperate
+elements of a compound item.  Semi-colons are used to terminate statements.  The opening/closing of class 
+declarations, functions, and if statements.  Indenting allows for legibility, letting you see the functional 
+structure of your code.  Comments are also tools used in organizing and reading code.  Comments can also be 
+used for temporarily disabling a portion of code.

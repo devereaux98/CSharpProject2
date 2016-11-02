@@ -1,0 +1,7 @@
+    Within Javascript, class declarations are hidden, while in C#, they are visible.  In C#, before creating a variable,
+you must declare its type (Ex. int, string, bool, float, double, etc.).  In JavaScript, you simply type "var" in front of
+your variable and give it a value, whether it be a number or string, since JavaScript is loosely based.  However, using the 
+line "#pragma strict" at the top of the code forces you to give the variable a type.  A function in C# is a return type, 
+followed by the function's name, then its arguments.  In JavaScript, you must first type the word function, then the function
+name, and then its parameters.  In C#, the access is defaulted to "private", while in JavaScript the access is defaulted to 
+"public".
