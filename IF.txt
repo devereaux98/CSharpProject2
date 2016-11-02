@@ -1,0 +1,6 @@
+    An "if statement" tests whether or not values and situations are ideal to run certain functions or call them.  
+An "else statement" performs a task when the "if statement" returns as false.  Adding an "if" to the "else statement" 
+will cause it to become a conditional.  An "if statement" helps your code make a decision as to what it should do.
+An if statement is handy to use when the code requires user input.  If the user inputs a certain value, a certain task will 
+be performed.  Likewise with other values included within the "else if statements".  If the user inputs none of these things,
+the functions contained in the "else statement" will run.  
