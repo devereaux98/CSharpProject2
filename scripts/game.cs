@@ -53,7 +53,7 @@ public class Game
         System.Threading.Thread.Sleep(2000);
     }
     //Game Levels
-    private LevelBase Cave = new LevelBase();
+    private LevelBase Cave = new CaveLevel();
     public static LevelBase Underwater = new LevelBase();
     //Game PowerUps
     public PowerUpBase Health = new PowerUpBase();
