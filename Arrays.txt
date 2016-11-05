@@ -1,0 +1,4 @@
+    Arrays store types that are the same to each other.  You declare the Array like you would a variable, except with a "[]" after the data type.  The format of an array must be as 
+follows: type[] arrayName = new type [number of elements];.  You can access and initialise the array by listing the name of the array, and then the index of the element between square 
+brackets, then set it equal to a value.  Arrays can be initialised at the same time that they are declared, all in one line.  To do this, you must create the array in this format:
+type[] arrayName = {value, value, value};.  
