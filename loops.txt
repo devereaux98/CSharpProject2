@@ -1,0 +1,5 @@
+    Loops are also known as iterating.  THere are four types of loops: While, Do While, For, and For Each.  A While loop will run as long as the conditionals are returned as true.
+While loops test the conditionals BEFORE the body, and Do While loops test the condition at the END of the body.  For Loops come in three sections.  The first section allows you to
+(optionally) declare any variables.  The second section allows you to (mandatorily) set a conditional.  The third section allows you to (optionally) increment or decrement any 
+variables.  A For Loop will also run as long as the conditional is met.  For Each loops are used primarily for sorting through Arrays.  A For Each Loop loops through a collection
+item by item until it reaches the end of the collection, where it stops.
