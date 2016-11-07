@@ -5,6 +5,7 @@ public class LevelBase
     public bool entranceOpen = true;
     public string[] environment;
     public string[] objects;
+    public WeaponBase M16 = new WeaponBase();
     public void Enter()
     {
         Console.WriteLine(StartMessage);
@@ -30,6 +31,10 @@ public class LevelBase
 
             case 3:
                 Console.WriteLine("You've walked into " + objects[i]);
+                if (objects[i] == "Shark")
+                {
+                    M16.SemiAutoFire();
+                }
                 Game.canPlay = false;
             break;
 
