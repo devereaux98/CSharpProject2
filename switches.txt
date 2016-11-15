@@ -1,0 +1,5 @@
+    A switch statement is a conditional that is used to compare a single variable to a series of constants.  Common use for switches is to make decisions alongside Enumerations. 
+ Switches function similarly to if statements, but can be used to make the code much less convoluted and short.  A switch's syntaz looks like this: switch (variable){}.  Within
+ the curly braces we use cases, or constants that are compared against our variable.  A case's syntax looks like this: case 1:.  What follows the declaration of the case is What
+ the case performs when it is true.  In order to finish the case, we have to use a jump statement, the most commonly used is "break;".  In order to perform an action that happens
+ when none of the cases are true, we use the keyword "default".  Defaults must have "break;" at the end just like cases.  Defaults can be compared to else statements.

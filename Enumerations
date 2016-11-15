@@ -1,0 +1,5 @@
+    Enums are data types that have specific subsets with possible values.  Enums can be made inside or outside of classes, depending on what classes and codes need to access them.  
+An Enum's syntax is as follows:  enum EName {var1, var2, var3, var4};.  The constants within the enum have a default value of an integer equaling zero, which is incremented throughout 
+the set (so order matters when creating enums).  It is possible to change the type of an enum (other than integer) by putting a colon after the name, and putting a type.  To make a
+variable from the enum, you say the name of the enum, followed by the name of the variable (EName varName;).  To set the variable equal to one of the enum values, you type in 
+varName = EName.var; (var being whichever value you need).  To make a function with an enum, you type EName FunctionName (EName FunctionParam).
